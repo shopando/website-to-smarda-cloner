@@ -1,0 +1,15 @@
+{
+  "name": "download-website-as-smarda",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "download-website-as-smarda": "./cli.js"
+  },
+  "scripts": {
+    "download": "node cli.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
